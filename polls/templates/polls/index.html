@@ -1,0 +1,23 @@
+{% extends 'polls/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block navbar %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>Hello there!</h1>
+    {% if tasks %}
+        {% for elem in tasks %}
+            <div class="alert alert-success mt-2">
+                <h3>{{ elem.title }}</h3>
+                <p>{{ elem.task }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>You don't have tasks</p>
+    {% endif %}
+{% endblock %}
