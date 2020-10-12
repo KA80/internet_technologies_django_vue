@@ -101,7 +101,6 @@ ENV/
 .mypy_cache/
 
 .DS_Store
-*.sqlite3
 media/
 *.pyc
 *.db
@@ -113,6 +112,3 @@ media/
 # **/migrations/**
 # !**/migrations
 # !**/migrations/__init__.py
-!/polls/migrations/0001_initial.py
-.idea/dataSources/
-!/polls/migrations/0001_initial.py
