@@ -25,7 +25,7 @@ SECRET_KEY = 'kbv78kwk0s#0x-zn%83jx16e3-*&54p8v@9j^+c0bthqtu3m(s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-praisethedevil.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['django-praisethedevil.herokuapp.com', '127.0.0.1', 'praisethedevil.herokuapp.com']
 
 # Application definition
 
